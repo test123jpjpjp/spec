@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.dependency 'Kingfisher'
 
   s.source       = { :http => "https://github.com/test123jpjpjp/spec_zip/releases/download/0.3.5/librarysample.framework.zip" }
-  s.source_files  = "librarysample.framework/**/*{.h,.hpp,.swift}"
+  s.source_files  = "librarysample.framework/**/*{.*}"
 end
